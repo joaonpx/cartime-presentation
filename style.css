@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  color: #fafafa;
+  background: #0c0c0c;
+
+  font-family: "Roboto", sans-serif;
+
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  padding-block: 5rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+main h1:first-child {
+  font-size: 4rem;
+
+  text-align: center;
+}
+
+.member .member-icon {
+  width: 10rem;
+  border-radius: 20rem;
+}
+
+.member .profile {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.member .profile h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.member svg {
+  width: 3.5rem;
+
+  transition: all 200ms;
+}
+
+.member svg:hover {
+  opacity: 0.5;
+}
+
+@media (min-width: 768px) {
+  .member .member-icon {
+    width: 15rem;
+  }
+}
