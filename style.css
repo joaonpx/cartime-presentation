@@ -18,7 +18,7 @@ body {
 
   display: flex;
   justify-content: center;
-  padding-block: 5rem;
+  padding-block: 4rem;
 }
 
 main {
@@ -35,7 +35,7 @@ main h1:first-child {
 
 .member .member-icon {
   width: 10rem;
-  border-radius: 20rem;
+  border-radius: 50rem;
 }
 
 .member .profile {
